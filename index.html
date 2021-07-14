@@ -18,12 +18,19 @@
     <!-- HEADER -->
   <header class="header">
     <div class="container page-header-container">
-      <nav class="page-header-navigation"> 
-      <a class="logo-header" href="./index.html">
-        <svg width="80" height="28.5" aria-label="Логотип">
-          <use href="./images/defs.svg#ilogo-B"></use>
-        </svg>
-      </a>
+      <div class="mobile-header">
+        <a class="logo-header" href="./index.html">
+          <svg width="80" height="28.5" aria-label="Логотип">
+            <use href="./images/defs.svg#ilogo-B"></use>
+          </svg>
+        </a>
+        <button class="navigator-btn is-open" type="button" aria-expanded="false" data-menu-button>
+          <svg width="20" height="15" aria-label="Переключатель мобильного меню">
+            <use class="icon-menu" href="./images/defs.svg#icon-menu"></use>
+            <use class="icon-close" href="./images/defs.svg#ikrest"></use>
+          </svg>
+        </button>
+      </div>
       <div class="page-header-navigation-container">
         <ul class="site-nav list">
         <li class="site-nav-item item">
@@ -44,6 +51,7 @@
       </div>
       </nav>
     </div>
+    </header>
 
       <!-- HERO -->
       <section class="hero">
@@ -57,7 +65,11 @@
                   хочу на бесплатное занятие
                           </button>
           </div>
-
+            <div class="rightside-hero">
+              <picture>
+                PHOTO HERO
+              </picture>
+            </div>
             </div>
           </section>
 
@@ -382,16 +394,4 @@
 
 </html>
 
- <!-- <div class="mobile-header">
-        <a class="logo-header" href="./index.html">
-          <svg width="80" height="28.5" aria-label="Логотип">
-            <use href="./images/defs.svg#ilogo-B"></use>
-          </svg>
-        </a>
-        <button class="navigator-btn is-open" type="button" aria-expanded="false" data-menu-button>
-          <svg width="20" height="15" aria-label="Переключатель мобильного меню">
-            <use class="icon-menu" href="./images/defs.svg#imenu"></use>
-            <use class="icon-close" href="./images/defs.svg#ikrest"></use>
-          </svg>
-        </button>
-      </div> -->
+ 
