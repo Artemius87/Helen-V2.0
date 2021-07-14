@@ -13,7 +13,7 @@ ul {
   padding-left: 0;
 }
 
-li {
+.list {
   list-style: none;
 }
 
@@ -34,6 +34,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.link-line {
+  text-decoration-line: underline;
 }
 
 .button {
