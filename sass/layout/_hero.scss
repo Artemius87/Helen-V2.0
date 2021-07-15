@@ -1,0 +1,52 @@
+
+.hero-title{
+font-weight: 800;
+font-size: 20px;
+line-height: 1.36;
+letter-spacing: 0.03em;
+}
+
+.title-grey{
+color: $secondary-text-color;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.57;
+}
+
+.title-bold{
+      font-weight: bold;
+    font-size: 14px;
+    line-height: 1.57;
+}
+
+.title-orange{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.57;
+color: $orange-color;
+}
+
+.hero-title-undertitle{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hero-picture{
+    max-width: 208px;
+    display: block;
+    margin: 30px auto 0;
+}
+
+.hero{
+    background-image: url("/images/bgimage/Bgmob.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom -50px;
+}
+
+
+@media screen and (min-width: 320px){
+.hero{
+    background-image: url("/images/bgimage/Bgmob.png");
+}
+}
