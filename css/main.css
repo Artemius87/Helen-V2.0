@@ -158,7 +158,7 @@ a {
   background-image: url("/images/bgimage/Bgmob.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom -38px;
+  background-position: center bottom -40px;
 }
 
 @media screen and (min-width: 320px) {
@@ -182,17 +182,31 @@ a {
 .features-list-item::before {
   content: "";
   display: block;
-  width: 58,82px;
+  width: 60px;
   height: 60px;
   background-repeat: no-repeat;
   background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .features-list-item {
-  font-weight: bold;
+  position: relative;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.43;
-  max-width: 240px;
-  margin-bottom: 30px;
+  max-width: 216px;
+  margin: 0 auto;
+  padding-left: 68px;
+}
+
+@media screen and (max-width: 767px) {
+  .features-list-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .container-features {
+    padding-top: 10px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -13,26 +13,32 @@
 .features-list-item::before{
     content: "";
     display: block;
-    width: 58,82px;
+    width: 60px;
     height: 60px;
            background-repeat: no-repeat;
-    //   background-position: left;
       background-size: contain;
+      position: absolute;
+      top: 0;
+      left: 0;
       }
 
-      .features-list-item{
-     
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 1.43;
-        max-width: 240px;
-        margin-bottom: 30px;
-      }
+    .features-list-item{
+     position: relative;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.43;
+     max-width: 216px;
+    margin: 0 auto;
+    padding-left: 68px;
+     }
 
-@media screen and (min-width: 320px){
- .features{
- 
+@media screen and (max-width: 767px){
+    .features-list-item:not(:last-child){
+        margin-bottom: 30px; 
  }
-
+.container-features{
+    padding-top: 10px;
+    
+}
  }
 
