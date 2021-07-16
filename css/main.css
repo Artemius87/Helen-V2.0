@@ -136,9 +136,6 @@ a {
 }
 
 .title-orange {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.57;
   color: #FF6B09;
 }
 
@@ -215,5 +212,15 @@ a {
 
 .challenges .title {
   color: #FFFFFF;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.35;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.challenges-list {
+  list-style-type: none;
 }
 /*# sourceMappingURL=main.css.map */
