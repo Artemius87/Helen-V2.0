@@ -84,8 +84,7 @@ a {
     font-size: 12px;
     line-height: 1.25;
     font-style: normal;
-    font-weight: 700;
-    padding: 15px 5px;
+    padding: 18px 0px;
     width: 100%;
     letter-spacing: inherit;
   }
@@ -202,11 +201,19 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-  .features-list-item:not(:last-child) {
+  .features-list-item {
     margin-bottom: 30px;
   }
   .container-features {
     padding-top: 10px;
   }
+}
+
+.challenges {
+  background-color: #111518;
+}
+
+.challenges .title {
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=main.css.map */
