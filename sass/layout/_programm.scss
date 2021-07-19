@@ -1,0 +1,84 @@
+
+.programm {
+background-color: $primary-text-color;
+}
+
+.programm-title {
+    font-weight: 800;
+font-size: 20px;
+line-height: 1.3;
+text-align: center;
+letter-spacing: 0.03em;
+color: $white-color;
+margin-top: 20px;
+}
+
+.program-list-item-title{
+    position: relative;
+color: $white-color;
+font-weight: 700;
+font-size: 14px;
+line-height: 2;
+margin-top: 40px;
+text-transform: uppercase;
+
+}
+
+.topic-list-title{
+    color: $orange-color;
+font-weight: 700;
+font-size: 12px;
+line-height: 1.66;
+margin: 10px 0 ;
+}
+
+.semester-list-item{
+       color: $secondary-text-color;
+    opacity: 0.5;
+    display: flex;
+}
+
+
+.photo-position{
+
+    position: relative;
+}
+
+
+.semester-list::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 0.5px;
+height: 1182px;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+left: 75px;
+top: 50px;
+
+}
+
+.program-list{
+   display: flex;
+   flex-direction: column;
+   margin-left: 100px;
+}
+
+.program-list-item-title::before{
+    content: "";
+    position: absolute;
+    width: 12px;
+height: 12px;
+background: #FF6B09;
+display: inline-block;
+border-radius: 50%;
+left: -30px;
+top: 8px;
+z-index: 1;
+}
+
+.programm-picture{
+    position: absolute;
+    left: 175px;
+    top: 1280px;
+}
