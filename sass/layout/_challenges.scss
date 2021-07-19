@@ -1,3 +1,47 @@
 .challenges-list{
     list-style-type: none;
+    counter-reset: my-counter;
+}
+
+.absolute-list .challenges-list-item{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.challenges-list-item::before{
+     content: "     0" counter(my-counter);
+    counter-increment: my-counter;
+    color: rgba(255, 107, 9, 1);
+    font-weight: 700;
+      line-height: 1.22;
+      padding-left: 22px;
+      margin-bottom: 5px;
+      display: inline-block;
+}
+
+.challenges-list-item::after{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 2px;
+    background-color: #ff6b09;
+    top: 10px;
+}
+
+.challenges{
+    height: 545px;
+}
+
+.section-position{
+    position: relative;
+}
+
+.absolute-list{
+    position: absolute;
+    top: 210px;
+    left: 20px;
+    width: 263px;
+    background: #FFFFFF;
+box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
 }

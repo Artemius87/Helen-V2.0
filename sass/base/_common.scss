@@ -5,12 +5,18 @@ h4,
 h5,
 h6,
 p,
-ul {
+ul,
+ol
+ {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 0;
+}
+
+ol{
+  padding-left: 10px;
 }
 
 img{
@@ -76,6 +82,12 @@ border: none;
 cursor: pointer;
 align-items: center;
 
+}
+
+.bold-text{
+  font-weight: 700;
+    font-size: 14px;
+    line-height: 1.43;
 }
 
 @media screen and (min-width: 320px){
