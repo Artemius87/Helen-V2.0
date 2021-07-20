@@ -1,0 +1,47 @@
+.teacher .title{
+font-weight: 800;
+font-size: 20px;
+line-height: 1.3;
+letter-spacing: 0.03em;
+margin-bottom: 20px;
+}
+
+.title-name{
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+margin-top: 20px;
+margin-bottom: 10px;
+border-bottom: 1px solid #B9B9B9;
+padding-bottom: 10px;
+Width: 290px;
+}
+
+.tracher-list-item{
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 1.21;
+letter-spacing: 0.06em;
+margin-bottom: 20px;
+margin-left: 27px;
+
+}
+
+.tracher-list{
+    position: relative;
+}
+
+.tracher-list-item::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 17px;
+    height: 14px;
+    background-image: url("/images/galocka.svg");
+    background-repeat: no-repeat;
+   top: 0;
+   left: 0;
+
+}
+
