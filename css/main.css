@@ -1,3 +1,7 @@
+.orange-text-color {
+  color: #FF6B09;
+}
+
 h1,
 h2,
 h3,
@@ -551,5 +555,40 @@ a {
 .teacher .solutions-text {
   text-align: left;
   margin-bottom: 10px;
+}
+
+.guarantee .title {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+}
+
+.guarantee-list {
+  background: #F1F1F1;
+  padding-top: 30px;
+  padding-bottom: 31px;
+  color: #3D3D3D;
+}
+
+.guarantee-list-item:not(:last-child) {
+  margin-bottom: 23px;
+}
+
+.guarantee-list-item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 15px;
+  height: 20px;
+  background-image: url("/images/fire.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.guarantee-text {
+  padding-left: 35px;
 }
 /*# sourceMappingURL=main.css.map */
