@@ -1,0 +1,43 @@
+.footer{
+    text-align: center;
+}
+
+.footer-contact{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.214;
+    margin-top: 20px;
+    margin-bottom: 30px;
+     
+}
+
+.footer-contact::before{
+    content: "";
+    display: inline-block;
+    width: 20px;height: 20px;
+    background-image: url("/images/svg/phone.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+
+}
+
+.footer-number{
+    color: #111518;
+    font-style: normal;
+}
+
+.logo-footer{
+    margin-top: 10px;
+}
+
+.footer-social-link::after{
+    content: "";
+display: block;
+width: 40px;height: 40px;
+background-image: url("/images/svg/insta.svg");
+margin: 0 auto 10px;
+}

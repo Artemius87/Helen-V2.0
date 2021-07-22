@@ -90,7 +90,6 @@ a {
   color: #FFFFFF;
   border: none;
   cursor: pointer;
-  align-items: center;
 }
 
 .bold-text {
@@ -101,14 +100,15 @@ a {
 
 @media screen and (min-width: 320px) {
   .button-primary {
-    max-width: 270px;
+    width: 260px;
     height: 48px;
     font-size: 12px;
     line-height: 1.25;
     font-style: normal;
     padding: 18px 0px;
-    width: 100%;
     letter-spacing: inherit;
+    margin-left: 9px;
+    margin-top: 30px;
   }
 }
 
@@ -156,7 +156,6 @@ a {
 
 .hero-title-undertitle {
   margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .hero-picture {
@@ -660,11 +659,14 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #FFFFFF;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .registration {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .registration-title-zayavka {
@@ -673,8 +675,28 @@ a {
   font-size: 12px;
   color: #FFFFFF;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.input-form {
+  width: 280px;
+  height: 48px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.input-form::placeholder {
+  padding: 15px 0 16px 28px;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.214;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
 }
 
 @media not all, screen and (max-width: 767px) and (min-resolution: 2dppx), screen and (max-width: 767px) and (min-resolution: 192dpi) {
@@ -684,5 +706,55 @@ a {
     background-size: cover;
     background-color: #111518;
   }
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.214;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.footer-contact::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("/images/svg/phone.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.footer-number {
+  color: #111518;
+  font-style: normal;
+}
+
+.logo-footer {
+  margin-top: 10px;
+}
+
+.footer-social-link::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("/images/svg/insta.svg");
+  margin: 0 auto 10px;
+}
+
+.footer-policy {
+  background-color: #111518;
+  color: #B9B9B9;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

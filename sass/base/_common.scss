@@ -80,7 +80,7 @@ background-color: $orange-color;
 color: $white-color;
 border: none;
 cursor: pointer;
-align-items: center;
+// align-items: center;
 
 }
 
@@ -92,13 +92,15 @@ align-items: center;
 
 @media screen and (min-width: 320px){
   .button-primary{
-    max-width: 270px;
+   width: 260px;
 height: 48px;
 font-size: 12px;
 line-height: 1.25;
 font-style: normal;
 padding: 18px 0px;
-width: 100%;
+
 letter-spacing: inherit;
+margin-left: 9px;
+margin-top: 30px;
   }
 }
