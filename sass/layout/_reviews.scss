@@ -1,0 +1,38 @@
+.reviews .title{
+    margin-top: 0px;
+     text-align: center;
+} 
+
+.reviews-text-grey{
+    color: $secondary-text-color;
+    margin: 10px auto;
+
+}
+
+.reviews .title-orange{
+    font-weight: 800;
+font-size: 14px;
+line-height: 1.214;
+margin-bottom: 10px;
+}
+
+.reviews-text{
+    text-align: center;
+    color: #3D3D3D;
+    letter-spacing: 0.03em;
+    padding: 10px;
+}
+
+.container .block-shadow{
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0,25);
+border: 1px solid blue;
+background-color: blue;
+}
+
+ @media screen and (min-width: 320px){
+      .avatar{
+        width: 90px;
+         height: 90px;
+         margin: 0px auto 26px;
+     }
+    }
