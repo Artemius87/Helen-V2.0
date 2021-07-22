@@ -566,11 +566,29 @@ a {
   margin-bottom: 30px;
 }
 
-.guarantee-list {
+.bg-grey {
   background: #F1F1F1;
-  padding-top: 30px;
-  padding-bottom: 31px;
+}
+
+.guarantee-list {
+  padding-top: 10px;
+  padding-bottom: 11px;
   color: #3D3D3D;
+}
+
+.guarantee-list::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 0.5px;
+  height: 312px;
+  border-radius: 50%;
+  left: 31px;
+  border: 1px dashed #B9B9B9;
+}
+
+.guarantee-list-item {
+  position: relative;
 }
 
 .guarantee-list-item:not(:last-child) {
@@ -582,10 +600,14 @@ a {
   position: absolute;
   display: block;
   width: 15px;
-  height: 20px;
+  height: 35px;
   background-image: url("/images/fire.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  z-index: 2;
+  background-color: #F1F1F1;
+  top: -8px;
+  border-top: solid 5px #F1F1F1;
 }
 
 .guarantee-text {
