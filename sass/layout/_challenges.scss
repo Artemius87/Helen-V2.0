@@ -31,7 +31,7 @@
 
 .challenges{
     height: 545px;
-    width: 320px;
+    min-width: 320px;
 }
 
 .section-position{
@@ -42,7 +42,7 @@
     position: absolute;
     top: 210px;
     left: 20px;
-    width: 263px;
+    width: 280px;
     background: #FFFFFF;
 box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
 }
