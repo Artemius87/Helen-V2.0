@@ -5,7 +5,7 @@
 
 .reviews-text-grey{
     color: $secondary-text-color;
-    margin: 10px auto;
+    // margin: 10px auto;
 
 }
 
@@ -23,10 +23,13 @@ margin-bottom: 10px;
     padding: 10px;
 }
 
-.container .block-shadow{
-        box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0,25);
-border: 1px solid blue;
-background-color: blue;
+.wrapper{
+    padding: 20px;
+    width: 280px;height: 565px;
+    // border: 1px solid grey;
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
 }
 
  @media screen and (min-width: 320px){
@@ -34,5 +37,6 @@ background-color: blue;
         width: 90px;
          height: 90px;
          margin: 0px auto 26px;
+        
      }
     }

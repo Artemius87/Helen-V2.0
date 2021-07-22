@@ -522,7 +522,7 @@ a {
 
 .tracher-list {
   position: relative;
-  margin-bottom: 43px;
+  margin-bottom: 23px;
 }
 
 .tracher-list-item::before {
@@ -531,7 +531,7 @@ a {
   display: block;
   width: 17px;
   height: 16px;
-  background-image: url("/images/galocka.svg");
+  background-image: url("/images/svg/galocka.svg");
   background-repeat: no-repeat;
   background-position-y: 1px;
 }
@@ -545,8 +545,18 @@ a {
   margin-bottom: 10px;
 }
 
+.teacher-text-dash::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20px;
+  background-color: #FF6B09;
+  margin-bottom: 20px;
+}
+
 .guarantee .title {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .bg-grey {
@@ -567,7 +577,7 @@ a {
   width: 0.5px;
   height: 312px;
   border-radius: 50%;
-  left: 46px;
+  left: 26px;
   border: 1px dashed #B9B9B9;
 }
 
@@ -605,7 +615,6 @@ a {
 
 .reviews-text-grey {
   color: #B9B9B9;
-  margin: 10px auto;
 }
 
 .reviews .title-orange {
@@ -622,9 +631,11 @@ a {
   padding: 10px;
 }
 
-.block-shadow {
-  max-width: 280px;
-  max-height: 564px;
+.wrapper {
+  padding: 20px;
+  width: 280px;
+  height: 565px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 @media screen and (min-width: 320px) {
