@@ -638,11 +638,51 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.slider {
+  width: 280px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
 @media screen and (min-width: 320px) {
   .avatar {
     width: 90px;
     height: 90px;
     margin: 0px auto 26px;
+  }
+}
+
+.registration-title {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.registration {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.registration-title-zayavka {
+  font-weight: 600;
+  line-height: 1.25;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media not all, screen and (max-width: 767px) and (min-resolution: 2dppx), screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .registration {
+    background-image: url("/images/bgimage/registrmob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #111518;
   }
 }
 /*# sourceMappingURL=main.css.map */
