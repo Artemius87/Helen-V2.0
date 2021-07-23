@@ -128,6 +128,42 @@ a {
   }
 }
 
+.header {
+  position: relative;
+  width: 100%;
+}
+
+.mobile-menu {
+  z-index: 1;
+  position: absolute;
+  padding: 60px 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 283px;
+  text-align: center;
+  background: violet;
+}
+
+.site-nav-item {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  text-align-last: left;
+  padding-left: 20px;
+  padding-right: 40px;
+  color: #fff;
+}
+
+.button.burger {
+  width: 260px;
+  height: 48px;
+  padding: 16px 5px;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
 .mobile-header {
   display: flex;
   justify-content: space-between;
@@ -143,7 +179,7 @@ a {
   cursor: pointer;
 }
 
-.icon-close {
+.navigator-btn .icon-close {
   display: none;
 }
 
@@ -151,13 +187,8 @@ a {
   display: block;
 }
 
-@media screen and (min-width: 320px) {
-  .page-header-navigation-container {
-    display: none;
-  }
-  .page-header-container {
-    padding-top: 30px;
-  }
+.navigator-btn.is-open .icon-menu {
+  display: none;
 }
 
 .title-grey {
