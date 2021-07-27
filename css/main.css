@@ -135,7 +135,6 @@ a {
 
 .mobile-menu {
   display: none;
-  z-index: 1;
   position: absolute;
   padding: 21px 20px;
   top: 0;
@@ -187,18 +186,15 @@ a {
   border: none;
   background: transparent;
   cursor: pointer;
-}
-
-.navigator-btn .icon-close {
-  display: none;
+  z-index: 1;
 }
 
 .navigator-btn.is-open .icon-close {
-  display: none;
+  display: block;
 }
 
-.navigator-btn.is-open .icon-menu {
-  display: block;
+.icon-close {
+  display: none;
 }
 
 .title-grey {
@@ -465,7 +461,7 @@ a {
   display: inline-block;
   position: absolute;
   width: 0.5px;
-  height: 1182px;
+  height: 1193px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   left: 75px;
