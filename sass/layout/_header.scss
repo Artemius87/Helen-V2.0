@@ -58,7 +58,6 @@ letter-spacing: 0.03em;
 
   }
 
-  // @media screen and (max-width: 767px){
     .mobile-menu{
       display: none;
       position: absolute;
@@ -75,12 +74,12 @@ letter-spacing: 0.03em;
         }
   
 
-  .button.burger-menu{
-    display: none;
-  }
-  }
-
  
+  }
+  @media screen and (min-width: 320px){
+    .button.burger-menu{
+      display: none;
+    }}
 
  @media screen and (min-width: 768px){
 .button.burger{
@@ -98,8 +97,22 @@ letter-spacing: 0.03em;
 
 }
 
-.svg-logo{
+.svg-logo , .logo-white{
   width: 128px;
   height: 45px;
+}
+
+.mobile-menu{
+padding: 40px;
+height: 1024px;
+}
+
+.site-nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  font-size: 26px;
+  margin-top: 32px;
 }
  }

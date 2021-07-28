@@ -34,9 +34,6 @@ line-height: 1.57;
     background-repeat: no-repeat;
     background-position: center bottom -40px;
   
-
-    
-    
 }
 
 
@@ -45,5 +42,36 @@ line-height: 1.57;
     background-image: url("/images/bgimage/Bgmob.png");
  
 
+}
+}
+
+@media screen and (min-width: 768px){
+    .hero{
+        background-image: url("/images/bgimage/Bgtab.png");
+        
+    }
+    .hero-container{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 18px;
+        margin-top: 20px;
+       
+    }
+
+    .leftside-hero{
+        padding-right: 60px;
+            }
+
+.button-primary{
+    margin-left: 0;
+}
+
+.hero-picture{
+    margin-top: 0;
+    min-width: 375px;
+    height: 320px;
+}
+.main-text{
+    font-size: 26px;
 }
 }
