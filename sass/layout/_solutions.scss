@@ -50,8 +50,6 @@ text-align: center;
 
 }
 
-
-
 .svg-icon{
     margin: 10px auto 20px;
     display: block;
@@ -79,7 +77,29 @@ margin-top: 5px;
     }
 }
 
+@media screen and (min-width: 768px) {
+    .title.main-text{
+        margin-top: 40px;
+    }
+  .solutions-list{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
 
+  }
+  .solutions-list-item{
+        width: 334px;
+      height: 334px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 27px;
+    line-height: 1.42;
+  }
+  .solutions-title{
+      padding: 0 17px;
+  }
+}
     
 
 

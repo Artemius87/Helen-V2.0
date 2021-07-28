@@ -84,8 +84,11 @@ letter-spacing: 0.03em;
  @media screen and (min-width: 768px){
 .button.burger{
   display: none;
-
 }
+.page-header-container{
+  padding-bottom: 0;
+}
+
 .button.burger-menu{
   display: block;
   width: 260px;

@@ -46,3 +46,25 @@
     background: #FFFFFF;
 box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
 }
+
+@media screen and (min-width: 768px){
+.absolute-list{
+    width: 688px;
+    height: 303px;
+    left: 40px;
+}
+
+.challenges-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.challenges-list-item{
+    width: 230px;
+    padding-left: 20px;
+    
+}
+    .challenges{
+        height: 370px;
+    }
+}

@@ -48,14 +48,17 @@ line-height: 1.57;
 @media screen and (min-width: 768px){
     .hero{
         background-image: url("/images/bgimage/Bgtab.png");
-        
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
     }
     .hero-container{
         display: flex;
         justify-content: space-between;
         padding-right: 18px;
-        margin-top: 20px;
-       
+        align-items: center;
+        padding-top: 0;
+            
     }
 
     .leftside-hero{

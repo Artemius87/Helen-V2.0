@@ -213,6 +213,9 @@ a {
   .button.burger {
     display: none;
   }
+  .page-header-container {
+    padding-bottom: 0;
+  }
   .button.burger-menu {
     display: block;
     width: 260px;
@@ -283,12 +286,16 @@ a {
 @media screen and (min-width: 768px) {
   .hero {
     background-image: url("/images/bgimage/Bgtab.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
   }
   .hero-container {
     display: flex;
     justify-content: space-between;
     padding-right: 18px;
-    margin-top: 20px;
+    align-items: center;
+    padding-top: 0;
   }
   .leftside-hero {
     padding-right: 60px;
@@ -349,6 +356,15 @@ a {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .container-features {
+    padding-top: 0;
+  }
+  .features-list {
+    display: flex;
+  }
+}
+
 .challenges {
   background-color: #111518;
 }
@@ -406,6 +422,26 @@ a {
   width: 280px;
   background: #FFFFFF;
   box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+}
+
+@media screen and (min-width: 768px) {
+  .absolute-list {
+    width: 688px;
+    height: 303px;
+    left: 40px;
+  }
+  .challenges-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .challenges-list-item {
+    width: 230px;
+    padding-left: 20px;
+  }
+  .challenges {
+    height: 370px;
+  }
 }
 
 .solutions {
@@ -480,6 +516,29 @@ a {
     padding: 20px 10px;
     margin-bottom: 15px;
     width: 280px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title.main-text {
+    margin-top: 40px;
+  }
+  .solutions-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .solutions-list-item {
+    width: 334px;
+    height: 334px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 27px;
+    line-height: 1.42;
+  }
+  .solutions-title {
+    padding: 0 17px;
   }
 }
 
