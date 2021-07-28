@@ -574,7 +574,7 @@ a {
   margin: 10px 0;
 }
 
-.semester-list-item {
+.topic-list-item {
   color: #B9B9B9;
   opacity: 0.5;
   display: flex;
@@ -593,12 +593,10 @@ a {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   left: 75px;
-  top: 50px;
+  top: 19px;
 }
 
 .program-list {
-  display: flex;
-  flex-direction: column;
   margin-left: 100px;
 }
 
@@ -620,6 +618,37 @@ a {
   top: 1287px;
   right: -20px;
   z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .semester-list::before {
+    height: 710px;
+  }
+  .semester-list {
+    display: flex;
+  }
+  .program-list {
+    margin-left: 125px;
+  }
+  .semester-list-item:not(:last-child) {
+    margin-right: 50px;
+  }
+  .topic-list-item {
+    width: 157px;
+  }
+  .programm-title {
+    text-align: left;
+    font-size: 26px;
+  }
+  .program-list-item-title::before {
+    left: -55px;
+  }
+  .programm-picture {
+    top: 670px;
+  }
+  .choose-br {
+    display: none;
+  }
 }
 
 .choose {
