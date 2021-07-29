@@ -874,6 +874,7 @@ a {
     max-width: 700px;
     margin: 0 auto;
     padding: 20px;
+    margin-bottom: 50px;
   }
   .guarantee-list-item {
     width: 605px;
@@ -931,6 +932,47 @@ a {
     width: 90px;
     height: 90px;
     margin: 0px auto 26px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews .title {
+    text-align: left;
+  }
+  .reviews .title-orange {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .reviews-text-grey {
+    margin-bottom: 20px;
+  }
+  .title.main-text {
+    text-align: center;
+  }
+  .wrapper {
+    width: 100%;
+    display: flex;
+    height: 100%;
+  }
+  .left-side-reviews {
+    margin-right: 25px;
+  }
+  .reviews-text {
+    padding: 0;
+  }
+  .right-side-reviews {
+    padding-right: 40px;
+    padding-bottom: 40px;
+  }
+  .avatar {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+  }
+  .slider {
+    width: 558px;
+    height: 54px;
   }
 }
 
