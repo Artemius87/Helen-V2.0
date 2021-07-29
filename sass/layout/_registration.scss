@@ -30,9 +30,12 @@ margin-bottom: 30px;
 .input-form{
     width: 280px;
     height: 48px;
-    margin-bottom: 20px;
-    border: 1px solid rgba(255, 255, 255, 1);
+      border: 1px solid rgba(255, 255, 255, 1);
     background-color: transparent;
+}
+
+.input-form:not(:last-child){
+    margin-bottom: 20px;
 }
 
 .input-form::placeholder{
@@ -54,3 +57,47 @@ color: $white-color;
 }
 }
     
+
+
+@media not all, screen and (min-width: 768px) and 
+(min-resolution: 2dppx), screen and (min-width: 768px)
+ and (min-resolution: 192dpi){
+    .registration {
+    content: "";
+    background-image: url("/images/bgimage/registrtab@2x.png");
+    background-color: #111518;
+}
+ }
+ @media screen and (min-width: 768px) {
+    .registration{
+        background-image: url("/images/bgimage/registrtab.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+       min-width: 720px;
+       background-position: 50%;
+    }
+
+    .registration-title{
+        font-size: 26px;
+    }
+
+    .registration-title-zayavka{
+        font-size: 14px;
+        margin-bottom: 40px;
+        padding: 0 85px;
+    }
+
+    .form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .input-form{
+        width: 390px;
+    }
+
+    .registration .button-primary{
+        margin-top: 11px;
+    }
+}

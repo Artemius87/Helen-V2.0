@@ -5,3 +5,19 @@
     font-size: 14px;
 line-height: 2;
 }
+
+@media screen and (min-width: 768px){
+.footer-policy{
+    height: 70px;
+}
+ 
+.text-footer-policy{
+    text-align: left;
+    padding: 20px 0;
+    padding-left: 40px;
+
+}
+    .container-policy{
+        padding: 0;
+    }
+}

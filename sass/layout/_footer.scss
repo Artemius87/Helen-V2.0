@@ -41,3 +41,28 @@ width: 40px;height: 40px;
 background-image: url("/images/svg/insta.svg");
 margin: 0 auto 10px;
 }
+
+@media screen and (min-width: 768px){
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+}
+.logo-footer{
+    width: 128px;height: 45px;
+    margin: 0;
+}
+    .footer-contact{
+        margin-left: 205px;
+        font-size: 20px;
+        letter-spacing: 0.08em;
+       
+    }
+    .footer-social-link{
+        border-left: 1px solid #B9B9B9;
+       height: 40px;
+       margin-bottom: 10px;
+       padding-left: 24px;
+    }
+
+}

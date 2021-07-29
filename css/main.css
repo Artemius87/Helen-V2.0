@@ -1008,9 +1008,12 @@ a {
 .input-form {
   width: 280px;
   height: 48px;
-  margin-bottom: 20px;
   border: 1px solid white;
   background-color: transparent;
+}
+
+.input-form:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .input-form::placeholder {
@@ -1029,6 +1032,43 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #111518;
+  }
+}
+
+@media not all, screen and (min-width: 768px) and (min-resolution: 2dppx), screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .registration {
+    content: "";
+    background-image: url("/images/bgimage/registrtab@2x.png");
+    background-color: #111518;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .registration {
+    background-image: url("/images/bgimage/registrtab.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 720px;
+    background-position: 50%;
+  }
+  .registration-title {
+    font-size: 26px;
+  }
+  .registration-title-zayavka {
+    font-size: 14px;
+    margin-bottom: 40px;
+    padding: 0 85px;
+  }
+  .form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .input-form {
+    width: 390px;
+  }
+  .registration .button-primary {
+    margin-top: 11px;
   }
 }
 
@@ -1076,11 +1116,49 @@ a {
   margin: 0 auto 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+  }
+  .logo-footer {
+    width: 128px;
+    height: 45px;
+    margin: 0;
+  }
+  .footer-contact {
+    margin-left: 205px;
+    font-size: 20px;
+    letter-spacing: 0.08em;
+  }
+  .footer-social-link {
+    border-left: 1px solid #B9B9B9;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 24px;
+  }
+}
+
 .footer-policy {
   background-color: #111518;
   color: #B9B9B9;
   text-align: center;
   font-size: 14px;
   line-height: 2;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-policy {
+    height: 70px;
+  }
+  .text-footer-policy {
+    text-align: left;
+    padding: 20px 0;
+    padding-left: 40px;
+  }
+  .container-policy {
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */
