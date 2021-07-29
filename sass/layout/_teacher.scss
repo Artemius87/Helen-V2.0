@@ -59,3 +59,24 @@ margin-bottom: 20px;
     background-color: $orange-color;
     margin-bottom: 20px;
 }
+
+@media screen and (min-width: 768px) {
+    .teacher-container{
+        display: flex;
+    }
+    .rightside-teacher{
+        margin-top: 80px;
+        margin-left: 40px;
+       
+    }
+.title-name{
+    width: 413px;
+}
+.tracher-list{
+    padding-right: 58px;
+}
+.teacher .title {
+    margin-bottom: 30px;
+}
+
+}

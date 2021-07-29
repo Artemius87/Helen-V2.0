@@ -99,7 +99,7 @@ z-index: 1;
 
     
     .semester-list-item:not(:last-child){
-        margin-right: 50px;
+        margin-right: 62px;
     }
 
     .topic-list-item{
@@ -115,10 +115,7 @@ z-index: 1;
 
  .programm-picture{
      top: 670px;
- }
-
- .choose-br{
-     display: none;
+     right: -40px;
  }
 
 }

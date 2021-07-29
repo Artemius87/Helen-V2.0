@@ -61,3 +61,36 @@
     padding-top: 5px;
     font-style: normal;
 }
+
+@media screen and (min-width: 768px) {
+    .choose-br{
+        display: none;
+    }    
+ .choose .title{
+     text-align: center;
+     font-size: 26px;
+     margin-bottom: 30px;
+ }
+    .choose-container{
+        padding-top: 130px;
+       
+    }
+    .choose-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        }
+
+        .choose{
+            height: 320px;
+        }
+
+    .choose-list-item{
+        width: 236px;
+        
+    }
+    .choose-list-item:nth-child(-n+4){
+        margin-bottom: 30px;
+    }
+}

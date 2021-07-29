@@ -56,3 +56,25 @@
 .guarantee-text{
     padding-left: 35px;
 }
+
+@media screen and ( min-width: 768px){
+    .bg-grey{
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 20px;
+        
+    }
+    .guarantee-list-item{
+        width: 605px;
+        padding-left: 63px;
+    }
+    .guarantee-list::before {
+        left: 123px;
+        height: 210px;
+    }
+
+    .guarantee-list-item::before{
+        top: -5px;
+        height: 30px;
+    }
+}
