@@ -1,10 +1,7 @@
 .solutions{
     margin-top: 120px;
 
-    & .title{
-        text-align: center;
-        margin-bottom: 30px;
-    }
+   
 }
 
 .solutions-list-item{
@@ -100,6 +97,25 @@ margin-top: 5px;
       padding: 0 17px;
   }
 }
-    
+   
+@media screen and (min-width: 1400px){
+    .solutions{
+        margin-top: 280px;
+        margin-bottom: 164px;
+    }
 
+    .solutions-list-item{
+        width: 425px;
+      height: 396px;
+}
+
+    .solutions-title{
+        font-size: 20px;
+    }
+
+    .solutions-text{
+        font-size: 18px;
+    line-height: 1.55;
+    }
+}
 

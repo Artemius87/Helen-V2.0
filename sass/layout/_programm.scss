@@ -60,10 +60,6 @@ top: 19px;
      margin-left: 100px;
 }
 
-.program-list-item-title{
-
-}
-
 .program-list-item-title::before{
     content: "";
     position: absolute;
@@ -120,4 +116,67 @@ z-index: 1;
 
 }
 
+@media screen and ( min-width: 1400px) {
+.programm-title{
+   padding-top: 120px;
+   font-size: 46px;
+   margin-bottom: 120px;
+}
 
+    .program-list{
+        display: flex;
+        align-items: flex-start;
+        margin-left: 0;
+    }    
+
+    .program-list-item{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .semester-list {
+        display: flex;
+        flex-direction: column;
+}
+
+    .program-list-item-title{
+        font-size: 20px;
+        
+    }
+    .topic-list-title{
+        font-size: 20px;
+        line-height: 1.65;
+        letter-spacing: 0.08em;
+    }
+    .topic-list-item{
+        font-size: 18px;
+        width: 195px;
+        
+    }
+
+ 
+    .semester-list::before {
+        height: 1409px;
+        transform: rotate(90deg);
+        top: -731px;
+        left: 661px;
+}
+
+.program-list-item-title::before {
+    width: 17px;
+    height: 16px;
+    left: 0px;
+    top: -74px;
+}
+
+.programm-picture {
+    position: absolute;
+    top: 334px;
+    left: -43px;
+    right: unset;
+    width: 550px;
+      
+    
+}
+}
