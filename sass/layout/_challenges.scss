@@ -68,3 +68,46 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
         height: 370px;
     }
 }
+
+@media screen and (min-width: 1400px){
+    .challenges{
+    background-image: url("/images/bgimage/fireblack.png");
+    background-repeat: no-repeat;
+    background-position: 90% 130%;
+    height: 560px;
+    width: 1680px;
+}
+.challenges-container{
+    padding-top: 60px;
+    margin-left: 30px;
+   
+
+}
+ .absolute-list{
+    padding-top: 70px;
+    top: 365px;
+    left: 40px;
+    width: 1314px;
+    min-height: 362px;
+ }  
+ .challenges-list{
+     display: flex;
+     margin-left: 90px;
+     margin-right: 90px;
+ }
+ .challenges-list-item-text{
+    font-weight: 700;
+     font-size: 20px;
+     line-height: 1.2;
+     margin-bottom: 32px;
+ }
+ .challenges-list-item{
+     width: 330px;
+     
+ }
+ .challenges-list-item::before {
+    font-size: 20px;
+
+ }
+
+}

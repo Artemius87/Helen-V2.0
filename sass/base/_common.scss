@@ -104,3 +104,14 @@ margin-left: 9px;
 margin-top: 30px;
   }
 }
+
+@media screen and (min-width: 1400px){
+  .button-primary{
+    width: 354px;
+    height: 70px;
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.214;
+letter-spacing: 0.14em;
+  }
+  }

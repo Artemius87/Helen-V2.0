@@ -1,0 +1,42 @@
+@media screen and (min-width: 320px){
+   .text-hero{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.36;    
+    letter-spacing: 0.03em;
+   }
+  
+  
+    .text-challenges{
+        font-size: 20px;
+        line-height: 1.30;
+letter-spacing: 0.03em;
+    }
+}
+   
+@media screen and (min-width: 768px){
+    .text-hero{
+        font-size: 26px;
+        
+    }
+ 
+    .text-challenges{
+        font-size: 26px;
+    }
+}
+   
+   @media screen and (min-width: 1400px){
+    .text-hero{
+        font-size: 58px;
+        width: 642px;
+         margin-top: 0;
+        
+    }
+
+
+        .text-challenges{
+            font-weight: 800;
+font-size: 46px;
+
+        }
+    }

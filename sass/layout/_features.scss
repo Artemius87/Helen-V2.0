@@ -50,3 +50,21 @@
         display: flex;
     }
  }
+ @media screen and (min-width:1400px) {
+     .container-features{
+         margin-bottom: 130px;
+         margin-top: 50px;
+     }
+     .features-list-item::before {
+         width: 100px;
+         height: 102px;
+     }
+     .features-list-item{
+         font-size: 20px;
+         line-height: 1.65;
+        max-width: 480px;
+     padding-left: 88px;
+     margin-left: 0;
+     padding-top: 15px;
+     }
+ }
