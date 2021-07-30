@@ -5,15 +5,8 @@
     margin-bottom: 210px;
     
     
-    & .title{
-        font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 1.36;
-   letter-spacing: 0.03em;
-   color: $white-color;
-   margin-bottom: 46px;
-    }
+   
+   
 }
 
 .choose-position{
@@ -95,7 +88,32 @@
     }
 }   
 @media screen and (min-width: 1440px){
-    .choose-container{
-      
-    }    
+    
+
+     .choose-container{
+        padding-top: 80px;
+            }
+
+     .choose-text-item{
+         font-size: 20px;
+     }
+
+     .choose-list-item::before {
+         font-size: 20px;
+     }
+
+     .choose-list{
+         position: absolute;
+         z-index: 1;
+         display: flex;
+         flex-direction: row;
+         padding: 70px 84px;
+         width: 1314px;
+        
+     }
+
+     .choose-list-item{
+         width: 356px;
+         
+     }
 }

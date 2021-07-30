@@ -1,8 +1,3 @@
-.reviews .title{
-    margin-top: 0px;
-     text-align: center;
-} 
-
 .reviews-text-grey{
     color: $secondary-text-color;
     // margin: 10px auto;
@@ -47,12 +42,7 @@ margin-bottom: 10px;
     }
 
     @media screen and (min-width: 768px) {
-        .reviews .title{
-         text-align: left;
-        
-        }
-
-        .reviews .title-orange{
+               .reviews .title-orange{
             font-size: 20px;
             margin-top: 15px;
             margin-bottom: 20px;
@@ -97,3 +87,43 @@ margin-bottom: 10px;
        }
     }
     
+    @media screen and (min-width: 1400px) {
+        .wrapper{
+            max-width: 1090px;
+       margin: 0 auto;
+    }
+        
+     .reviews-text{
+        text-align: left;
+    }
+
+    .reviews-br{
+        display: none;
+    }
+
+    .avatar{
+        margin-left: 82px;
+    }
+
+    .svg-icon{
+        margin-left: 140px;
+        
+    }
+
+    .left-side-reviews{
+        margin-right: 22px;
+    }
+
+    .right-side-reviews{
+        margin-right: 82px;
+            }
+         .title-orange{
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .reviews .reviews-text{
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    }

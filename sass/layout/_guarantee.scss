@@ -1,8 +1,4 @@
 
-.guarantee .title{
-  margin-bottom: 30px;
-  text-align: center;
-}
 
 .bg-grey{
     background: #F1F1F1;
@@ -78,5 +74,44 @@
         top: -5px;
         height: 30px;
     }
-   
+}
+
+@media screen and (min-width: 1400px){
+    .bg-grey {
+        min-width: 1314px;
+    }
+
+    .guarantee-list{
+        padding: 50px 112px 45px;
+    }
+
+    .guarantee-list-item{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+    }
+
+    .guarantee-list-item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .guarantee-text{
+        font-size: 20px;
+        line-height: 1.4;
+        padding-left: 40px;
+    }
+    
+    .guarantee-list-item::before {
+        width: 22px;
+        height: 30px;
+        top: -3px;
+        
+    }
+
+    .guarantee-list::before {
+        left: 183px;
+        height: 242px;
+    }
+
 }

@@ -71,6 +71,7 @@ margin-bottom: 20px;
     }
 .title-name{
     width: 413px;
+    margin-top: 30px;
 }
 .tracher-list{
     padding-right: 58px;
@@ -78,5 +79,46 @@ margin-bottom: 20px;
 .teacher .title {
     margin-bottom: 30px;
 }
+}
 
+@media screen  and ( min-width: 1440px) {
+    .title-name {
+         margin-top: 80px;
+      font-size: 30px;    
+      border-bottom: 1px solid #B9B9B9;
+    padding-bottom: 15px;
+    Width: 780px;   
+    }    
+
+    .teacher-list-text{
+        font-size: 16px;
+        padding-left: 50px;
+    }
+
+    .tracher-list-item::before {
+       width: 24px;
+        height: 20px;
+        background-size: cover;
+        background-position-y: -2px;
+    }
+
+    .rightside-teacher{
+        width: 642px;
+    }
+
+    .image-teacher{
+        width: 495px;
+        height: 588px;
+    }
+
+        .tracher-list{
+            margin-top: 30px;
+        }
+
+.tracher-list-item{
+    margin-bottom: 30px;
+}
+    .link-line{
+        font-size: 18px;
+    }
 }
