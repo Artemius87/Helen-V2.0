@@ -1,6 +1,8 @@
 .challenges-list{
     list-style-type: none;
     counter-reset: my-counter;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .absolute-list .challenges-list-item{
@@ -40,11 +42,16 @@
 
 .absolute-list{
     position: absolute;
-    top: 210px;
+    top: 180px;
     left: 20px;
     width: 280px;
     background: #FFFFFF;
 box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+}
+
+.challenges-container{
+    padding-top: 20px;
+   
 }
 
 @media screen and (min-width: 768px){
@@ -75,7 +82,7 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
     background-repeat: no-repeat;
     background-position: 90% 130%;
     height: 560px;
-    width: 1400px;
+    width: 1500px;
 }
 .challenges-container{
     padding-top: 60px;
