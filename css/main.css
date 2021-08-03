@@ -946,9 +946,9 @@ a {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
   .choose-container {
-    padding-top: 80px;
+    padding-top: 60px;
   }
   .choose-text-item {
     font-size: 20px;
@@ -1047,7 +1047,7 @@ a {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
   .title-name {
     margin-top: 80px;
     font-size: 30px;
@@ -1070,7 +1070,7 @@ a {
   }
   .image-teacher {
     width: 495px;
-    height: 588px;
+    height: 600px;
   }
   .tracher-list {
     margin-top: 30px;
@@ -1078,7 +1078,7 @@ a {
   .tracher-list-item {
     margin-bottom: 30px;
   }
-  .link-line {
+  .link-line.title-orange {
     font-size: 18px;
   }
 }
@@ -1293,6 +1293,10 @@ a {
     font-size: 18px;
     line-height: 1.5;
   }
+  .slider {
+    margin-top: 40px;
+    margin-bottom: 130px;
+  }
 }
 
 .registration-title {
@@ -1391,6 +1395,20 @@ a {
   }
 }
 
+@media screen and (min-width: 1400px) {
+  .input-form {
+    width: 478px;
+    height: 70px;
+  }
+  .input-form:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .registration .button-primary {
+    margin-top: 50px;
+    margin-bottom: 32px;
+  }
+}
+
 .footer {
   text-align: center;
 }
@@ -1459,6 +1477,25 @@ a {
   }
 }
 
+@media screen and (min-width: 1400px) {
+  .footer-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .footer-contact {
+    font-size: 30px;
+    line-height: 1.233;
+    margin-right: 16px;
+    margin-left: 300px;
+  }
+  .footer-contact::before {
+    width: 30px;
+    height: 28px;
+    margin-right: 15px;
+  }
+}
+
 .footer-policy {
   background-color: #111518;
   color: #B9B9B9;
@@ -1478,6 +1515,12 @@ a {
   }
   .container-policy {
     padding: 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .text-footer-policy {
+    padding-left: 10px;
   }
 }
 
@@ -1594,6 +1637,16 @@ a {
     font-size: 46px;
     margin-top: 130px;
     margin-bottom: 50px;
+  }
+  .registration-title {
+    font-size: 46px;
+    margin-top: 70px;
+  }
+  .registration-title-zayavka {
+    font-size: 30px;
+    line-height: 1.233;
+    margin-top: 50px;
+    margin-bottom: 56px;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -81,7 +81,7 @@ margin-bottom: 20px;
 }
 }
 
-@media screen  and ( min-width: 1440px) {
+@media screen  and ( min-width: 1400px) {
     .title-name {
          margin-top: 80px;
       font-size: 30px;    
@@ -108,7 +108,7 @@ margin-bottom: 20px;
 
     .image-teacher{
         width: 495px;
-        height: 588px;
+        height: 600px;
     }
 
         .tracher-list{
@@ -118,7 +118,7 @@ margin-bottom: 20px;
 .tracher-list-item{
     margin-bottom: 30px;
 }
-    .link-line{
+    .link-line.title-orange{
         font-size: 18px;
     }
 }

@@ -101,3 +101,23 @@ color: $white-color;
         margin-top: 11px;
     }
 }
+
+@media screen and ( min-width: 1400px) {
+    .input-form{
+        width: 478px;
+        height: 70px;
+        
+    
+    }
+
+    .input-form:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    
+    .registration .button-primary{
+        margin-top: 50px;
+        margin-bottom: 32px;
+    }
+
+  
+}
